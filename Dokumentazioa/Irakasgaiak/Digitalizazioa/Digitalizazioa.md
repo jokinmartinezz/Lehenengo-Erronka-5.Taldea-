@@ -36,24 +36,3 @@ Hodeiko konputazioari esker, baliabide informatikoak (zerbitzariak, biltegiratze
   * **SaaS (Software as a Service):** Hodeiko aplikazioak eta kudeaketa tresnak (adib. GitHub Projects).
 * **Proiektuko Abantailak:** Bertsio-kontrola, datuen erredundantzia, talde-lan sinkronizatua eta urruneko atzipen babestua.
 
----
-
-## 2.2. Cloud Baliabideen Bidezko Planifikazioa eta Jarraipena (GitHub)
-
-Proiektu honen plangintza eta kudeaketa osoa **GitHub** hodei-plataformaren bidez digitalizatu da, paper-euskarrian hasieran jasotako plangintzari jarraipen zehatza emateko.
-
-### 1. Planifikazioaren Digitalizazioa: GitHub Projects (Kanban)
-Paper gaineko atazak eta denboralizazioa **GitHub Projects** plataformako Kanban taula birtualera igaro dira. Taula honen bidez, lan-fluxua modu ikusgarri eta dinamikoan kudeatzen da:
-
-  ### 2. Eguneroko Jarraipena eta Mugarriak (Milestones & Issues)
-Eguneroko jarraipena bermatzeko, proiektua 10 lanegunetan banatutako atazetan (**Issues**) egituratu da:
-
-* **Atazak (Issues):** Egunean egindako urrats bakoitzeko *Issue* bat ireki da, deskribapenarekin, arduradunarekin (*Assignee*) eta etiketarekin (*Labels*: `component:network`, `component:database`, `component:sysadmin`, `type:documentation`).
-* **Git Commit-ak:** Git bidez egindako aldaketak komitatu direnean, mezuetan issue-aren zenbakia aipatu da (adibidez: `git commit -m "docs: gehitu IT/OT teoria Closes #1"`), atazak automatikoki ixteko eta jarraipen gardena izateko.
-
-### 3. Irakasleen Atzipena eta Ikuskapena (Access Control)
-Irakasleek proiektuaren garapena, kodea, planifikazioa eta dokumentazioa uneoro ikuskatu eta ebaluatu ahal izateko, baimenak honela konfiguratu dira:
-
-1. **Publikotasuna:** GitHub biltegia publiko gisa konfiguratu da, irekian atzitzeko aukera emanez.
-2. **Irakasleen Baimenak (Collaborators):** Biltegiaren ezarpenetan (`Settings -> Collaborators`), irakasleen GitHub erabiltzaileak gehitu dira ikuskapen- eta iruzkin-baimen osoekin.
-3. **GitHub Pages bidezko Argitaratzea:** Dokumentazio hau guztia publikoki atzitu daiteke web formatuan, hurrengo estekan: `https://[erabiltzailea].github.io/[proiektu-izena]/`.
