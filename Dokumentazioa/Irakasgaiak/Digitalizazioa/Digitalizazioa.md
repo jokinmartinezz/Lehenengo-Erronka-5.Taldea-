@@ -22,7 +22,8 @@ Gaur egungo azpiegitura teknologikoetan ezinbestekoa da Informazioaren Teknologi
 | **Integrazioa Proiektuan** | Webgune estatikoa, streaming DB eta Windows Server | Cabling fisikoa, OSI 1/2 mailak eta Wi-Fi sarrera-puntua |
 
 **Integrazioaren garrantzia:** Proiektu honetan, kableatze fisikoa (OT) eta Windows Server / IIS zerbitzaria zein datu-basea (IT) lotzen dira, azpiegitura osoak gailu mugikorren bidez komunikatzeko ahalmena izateko.
-
+![IT eta OT Konbergentzia](../img/it-ot.jpg)
+*1. irudia: IT eta OT teknologien arteko konbergentzia eta integrazioa.*
 ### 3. TGD-ak (Teknologia Garatu Berriak / Transformazio Digitaleko Gakoak) eta THD
 * **TGD-ak (Teknologia Garatu eta Disruptiboak):** Sektore produktibo berrietan integratzen diren teknologia aurreratuak dira (IoT, Cloud Computing, Zibersegurtasuna eta Datu Masiboen Analisiak).
 * **THD (Total Harmonic Distortion - Distortsio Harmoniko Osoa):** Sare elektriko zein komunikazio-seinaleetan agertzen den zarata edo desbideratze neurgailua da. THD maila altu batek komunikazio fisikoan (OSI 1 mailan) interferentziak sortzen ditu, datu-transmisioaren kalitatea kaltetuz. Proiektuko kableatze eta modulazio probetan seinalearen kalitatea bermatu behar da distortsio hau prebenitzeko.
